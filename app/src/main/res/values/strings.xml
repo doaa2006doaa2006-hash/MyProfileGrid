@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyProfileGrid</string>
+    <string name="about_title">About Me</string>
+    <string name="about_desc">My name is Reham. I am 21 years old, and I am passionate about creativity, technology, and digital design.</string>
+
+    <string name="education_title">My Education</string>
+    <string name="education_desc">I study Web and Mobile Multimedia at Al-Aqsa University, where I develop my creative and technical knowledge.</string>
+
+    <string name="skills_title">My Skills</string>
+    <string name="skills_desc">I have various design skills, including visual creativity, color coordination, layout design, and creating attractive digital content.</string>
+
+    <string name="goals_title">My Goals</string>
+    <string name="goals_desc">My goal is to become a professional multimedia designer and create innovative websites and mobile experiences.</string>
+</resources>

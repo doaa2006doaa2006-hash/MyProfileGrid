@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grid_color_one">#4A3028</color>
+    <color name="grid_color_two">#35241F</color>
+    <color name="grid_text">#FFF1E8</color>
+</resources>

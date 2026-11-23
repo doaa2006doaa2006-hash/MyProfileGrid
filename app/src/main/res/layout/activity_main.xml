@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- الصف الأول -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- المربع الأول: About Me -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/grid_color_one">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/grid_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_desc"
+                android:textSize="14sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/grid_text" />
+
+        </LinearLayout>
+
+        <!-- المربع الثاني: My Education -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/grid_color_two">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/education_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/grid_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/education_desc"
+                android:textSize="14sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/grid_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- الصف الثاني -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- المربع الثالث: My Skills -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/grid_color_two">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skills_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/grid_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skills_desc"
+                android:textSize="14sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/grid_text" />
+
+        </LinearLayout>
+
+        <!-- المربع الرابع: My Goals -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@color/grid_color_one">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goals_title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/grid_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goals_desc"
+                android:textSize="14sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/grid_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
